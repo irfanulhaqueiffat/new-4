@@ -1,0 +1,117 @@
+
+
+body{
+    background-color:#fff;
+ 
+    
+}
+image{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+   
+   
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main_div .cat_image img{
+    width: 200px;
+    height: 200px;
+}
+.main_div{
+
+    position: relative;
+   
+   
+     
+
+
+}
+.pre{width: 100px;
+    height: 100px;
+    left: -40px;
+    top:50%;
+    position: absolute;
+    font-size: 30px;
+    color:  gray;
+}
+
+.nxt{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    position: absolute;
+    top:50%;
+    right: -50px;
+    color:  gray;
+
+}
+.nxt2{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    position: absolute;
+    top:50%;
+    right: -150px;
+    color:  gray;
+
+}
+.pre:hover, .nxt:hover{
+    color: black;
+    cursor: pointer;
+}
+.nxt:hover{
+    color: black;
+     cursor:pointer;
+}
+.nxt2:hover{
+    color: black;
+     cursor:pointer;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.slick-dots li button{
+    font-size: 0px;
+    
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: #000;
+    
+}
+.slick-active button{
+    background-color: rgb(63, 91, 161) !important;
+
+}
+.slider-for{
+    width: 300px;
+    height: 300px;
+  
+    margin-top: 100px;
+
+    
+    
+}
+
+
+.slider-nav img{
+    width: 200px;
+    height:200px;
+  
+}
+
+.main-div4{
+    margin-top: 50px;
+}
+
